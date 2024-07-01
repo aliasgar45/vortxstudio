@@ -1,4 +1,3 @@
-import React from "react";
 import dev from "../assets/dev.svg";
 import pitch from "../assets/pitch.svg";
 import prod from "../assets/prod.svg";

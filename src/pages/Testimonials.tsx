@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./Testimonials.css"; // Import the CSS file for the animation
 
 const Testimonials = () => {

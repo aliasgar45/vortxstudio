@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import dot from "../assets/dot.svg";
 import plus from "../assets/plus.svg";
 import minus from "../assets/minus.svg";
