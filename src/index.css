@@ -1,0 +1,42 @@
+@import "./variables.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Custom Font Face Declarations */
+@font-face {
+    font-family: 'Instagram Sans Regular';
+    src: url('./assets/instagram-sans-2-cufonfonts-webfont/Instagram Sans.woff') format('woff');
+}
+@font-face {
+    font-family: 'Instagram Sans Light';
+    src: url('./assets/instagram-sans-2-cufonfonts-webfont/Instagram Sans Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Instagram Sans Medium';
+    src: url('./assets/instagram-sans-2-cufonfonts-webfont/Instagram Sans Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Instagram Sans Bold';
+    src: url('./assets/instagram-sans-2-cufonfonts-webfont/Instagram Sans Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Instagram Sans Headline Regular';
+    src: url('./assets/instagram-sans-2-cufonfonts-webfont/Instagram Sans Headline.woff') format('woff');
+}
+
+/* Apply Custom Font Family */
+body {
+    font-family: 'Instagram Sans Regular', sans-serif;
+}
+
+:root {
+    --primary-color: #F25D07;
+}

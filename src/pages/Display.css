@@ -1,0 +1,49 @@
+.display-slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.display-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+}
+
+.display-pair {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.display-item {
+    width: 360px;
+    height: 220px;
+    border: 1px solid #e6e6e6;
+    background-color: #fcfcfc;
+    margin-bottom: 24px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause animation on hover */
+.display-slider:hover .display-track {
+    animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+    .display-item {
+        width: calc(100vw - 48px);
+    }
+
+    .display-pair {
+        width: calc(100vw - 48px) !important;
+    }
+}
