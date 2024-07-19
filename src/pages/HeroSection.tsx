@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center justify-center px-4 sm:px-0">
