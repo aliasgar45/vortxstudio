@@ -11,7 +11,7 @@ const Display = () => {
   }, []);
 
   const pairWidth = 360;
-  const gap = 24;
+  const gap = 10;
   const totalPairs = Math.ceil(screenWidth / (pairWidth + gap)) + 1;
   return (
     <div className="flex flex-col items-center justify-center">

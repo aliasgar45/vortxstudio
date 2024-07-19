@@ -49,11 +49,11 @@ const Testimonials = () => {
     <div id="testimonial" className="flex flex-col items-center justify-center">
       <div className="py-20 mt-4">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="nav-items text-primary">Testimonials</h1>
+          <h1 className="bdoy-medium text-primary">Testimonials</h1>
           <div className="w-[400px] text-center mt-[10px]">
-            <p className="text-black">
+            <p className="h2-regular">
               Hear from our clients about how our creative solutions have
-              transformed their businesses.
+              transformed their businesses.{" "}
             </p>
           </div>
         </div>
@@ -72,8 +72,10 @@ const Testimonials = () => {
                 style={{ width: `${cardWidth}px`, marginRight: `${gap}px` }}
               >
                 <div className="flex flex-col gap-2 mb-2">
-                  <h1 className="font-black">{testimonial.header}</h1>
-                  <h3 className="nav-items text-[#999]">{testimonial.desc}</h3>
+                  <h1 className="body-medium">{testimonial.header}</h1>
+                  <h3 className="body-regular text-[#4d4d4d]">
+                    {testimonial.desc}
+                  </h3>
                   <div className="flex flex-row gap-4 items-center justify-start mt-4">
                     <div className="h-[40px] w-[40px] rounded-[100px] bg-[#d9d9d9]"></div>
                     <div>

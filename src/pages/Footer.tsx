@@ -9,7 +9,7 @@ const Footer = () => {
             style={{
               background: "linear-gradient(180deg, #fb975d 0%, #f25d07 100%)",
             }}
-            className="border border-solid border-[rgba(250,147,87,0.00)] nav-items text-white px-5 py-2 rounded-md"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 border border-solid border-[rgba(250,147,87,0.00)] nav-items text-white px-5 py-2 rounded-md"
           >
             Book a call
           </button>

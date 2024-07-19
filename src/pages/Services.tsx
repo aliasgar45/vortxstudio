@@ -31,12 +31,15 @@ const Services = () => {
     },
   ];
   return (
-    <div id="services" className="flex flex-col items-center justify-center px-4 sm:px-0">
+    <div
+      id="services"
+      className="flex flex-col items-center justify-center px-4 sm:px-0"
+    >
       <div className="w-full max-w-[640px] py-10 sm:py-20 mt-4">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="nav-items text-primary">Services</h1>
+          <h1 className="body-medium text-primary">Services</h1>
           <div className="w-full max-w-[400px] text-center mt-[10px]">
-            <p>
+            <p className="h2-regular">
               We create unique, user-centered designs that are both beautiful
               and functional.
             </p>
@@ -50,9 +53,9 @@ const Services = () => {
             >
               <div className="flex flex-col gap-2 mb-2">
                 <img className="w-[20px] h-[20px]" src={project.img} />
-                <h1 className="font-black">{project.name}</h1>
+                <h1 className="body-regular">{project.name}</h1>
               </div>
-              <h3 className="nav-items">{project.desc}</h3>
+              <h3 className="body-regular text-[#999]">{project.desc}</h3>
             </div>
           ))}
         </div>

@@ -14,11 +14,119 @@
 }
 
 .footer-items {
-    color:  #999;
+    color: #999;
     font-family: "Instagram Sans Regular", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+}
+
+.h1-regular {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h2-regular {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.body-regular {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.para-regular {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h1-medium {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.h2-medium {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.body-medium {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.para-medium {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.h1-bold {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.h2-bold {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.body-bold {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.para-bold {
+    color: var(--black, #000);
+    font-family: "Instagram Sans Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
 }
 
